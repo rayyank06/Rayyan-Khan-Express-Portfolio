@@ -1,0 +1,144 @@
+@charset "UTF-8";
+body {
+    background-color: #2A9D8F;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #333;
+}
+
+#wrapper {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+#banner {
+    background-color: #264653;
+    padding: 10px;
+    color: white;
+}
+
+#banner h1 {
+    margin: 0 0 10px 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Navigation stacks vertically on mobile */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+    margin: 0;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    display: block;
+    background-color: rgba(255,255,255,0.1);
+}
+
+nav a:hover, nav a.active {
+    background-color: rgba(255,255,255,0.2);
+}
+
+#main-content {
+    padding: 15px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    border-bottom: 2px solid #E9C46A;
+    padding-bottom: 8px;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.box {
+    width: 100%;
+    min-height: 120px;
+    float: none;
+    background: radial-gradient(circle, #E9C46A 0%, #F4A261 100%);
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+}
+
+/* Profile image on mobile */
+.profile-image {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.profile-image img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Video on mobile */
+video {
+    width: 100%;
+    height: auto;
+    border: 2px solid #264653;
+    border-radius: 5px;
+}
+
+/* Form optimized for mobile */
+.contact-form {
+    width: 100%;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.contact-form input[type="submit"],
+.contact-form input[type="reset"],
+.button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    background-color: #264653;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #E9C46A;
+}
+
+footer p {
+    margin: 8px 0;
+}
